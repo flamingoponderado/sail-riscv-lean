@@ -9,7 +9,7 @@ type-checkers without errors.
 this resulting Lean code is neither executable nor polished in any way. ⚠️
 
 ⚠️ The Lean toolchain version pinned in `lean-toolchain` has been modified
-(see the associated pull request). Because the A syntax parser and the
+(see the associated pull request). Because the syntax parser and the
 elaborator may behave slightly differently between Lean releases, this update
 could in principle have subtly changed the meaning of the generated model.
 We recommend re-validating the generated model against the upstream Sail and
